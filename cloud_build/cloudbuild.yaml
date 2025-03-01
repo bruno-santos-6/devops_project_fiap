@@ -1,0 +1,5 @@
+steps:  
+- name: 'gcr.io/cloud-builders/gcloud'  
+  args: ['composer', 'environments', 'storage', 'dags', 'import',  
+         '--source=./dags',  
+         '--environment=sales-composer']  

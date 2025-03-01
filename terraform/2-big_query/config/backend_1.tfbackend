@@ -1,0 +1,2 @@
+bucket = "bkt-prj-dataflow-services-hml-tfstate-b7f0"
+prefix = "terraform/app-infra/prj-dataplatform-services-hml/big_query"

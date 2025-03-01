@@ -1,0 +1,2 @@
+bucket = "bkt-prj-iac-tfstate-b7f0"
+prefix = "terraform/app-infra/prj-dataplatform-services-hml/composer/state"

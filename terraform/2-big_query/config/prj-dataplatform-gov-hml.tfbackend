@@ -1,0 +1,2 @@
+bucket = "bkt-prj-dataplatform-gov-hml"
+prefix = "terraform/app-infra/prj-dataplatform-gov-hml/big_query/state"

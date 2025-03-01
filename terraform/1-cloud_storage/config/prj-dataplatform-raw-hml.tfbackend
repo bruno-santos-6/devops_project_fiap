@@ -1,0 +1,2 @@
+bucket = "bkt-prj-dataplatform-raw-hml"
+prefix = "terraform/app-infra/prj-dataplatform-raw-hml/cloud_storage/state"

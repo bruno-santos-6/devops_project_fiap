@@ -1,0 +1,28 @@
+CREATE OR REPLACE TABLE `br-apps-dolphin-ddp-dev.db_dolphin_stage.tbl_sales_orders` AS
+SELECT 
+  ORDERNUMBER,
+  QUANTITYORDERED,
+  PRICEEACH,
+  ORDERLINENUMBER,
+  SALES,
+  ORDERDATE,
+  STATUS,
+  QTR_ID,
+  MONTH_ID,
+  YEAR_ID,
+  PRODUCTLINE,
+  MSRP,
+  PRODUCTCODE,
+  CUSTOMERNAME,
+  PHONE,
+  ADDRESSLINE1,
+  ADDRESSLINE2,
+  CITY,
+  STATE,
+  POSTALCODE,
+  COUNTRY,
+  TERRITORY,
+  CONTACTLASTNAME,
+  CONTACTFIRSTNAME,
+  DEALSIZE
+FROM `br-apps-dolphin-ddp-dev.db_dolphin_stage.tbl_sales_orders`;
